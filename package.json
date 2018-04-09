@@ -20,14 +20,6 @@
     "build-static-website": "NODE_ENV=production rm -rf build/static && yarn install --dev && next build src && next export src -o build/static",
     "start": "NODE_ENV=production node build/app/server.js"
   },
-  "author": "Clinton D'Annolfo",
-  "license": "Apache-2.0",
-  "keywords": [
-    "hacker-news",
-    "clone",
-    "react",
-    "graphql"
-  ],
   "dependencies": {
     "apollo-cache-inmemory": "^1.1.10",
     "apollo-client": "^2.2.6",
